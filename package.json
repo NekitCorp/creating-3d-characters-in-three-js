@@ -1,0 +1,21 @@
+{
+    "name": "creating-3d-characters-in-three-js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/NekitCorp/creating-3d-characters-in-three-js.git"
+    },
+    "scripts": {
+        "start": "parcel src/index.html",
+        "build": "parcel build src/index.html",
+        "check": "tsc --noEmit"
+    },
+    "devDependencies": {
+        "@types/three": "^0.135.0",
+        "parcel": "^2.0.1",
+        "typescript": "^4.5.4"
+    },
+    "dependencies": {
+        "gsap": "^3.9.0",
+        "three": "^0.135.0"
+    }
+}
